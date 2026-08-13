@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Set default API URL to VPS Production API
-axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://task.ltabai.in';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://taskapi.ltabai.in';
 
 import Topbar from './components/Topbar';
 import Sidebar from './components/Sidebar';

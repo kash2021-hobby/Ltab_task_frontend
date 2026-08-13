@@ -4,8 +4,8 @@ import axios from 'axios';
 import App from './App';
 import './index.css';
 
-// Default API URL (VPS Production: https://task.ltabai.in)
-const VPS_API_URL = 'https://task.ltabai.in';
+// Default API URL (VPS Production: https://taskapi.ltabai.in)
+const VPS_API_URL = 'https://taskapi.ltabai.in';
 const envApiUrl = import.meta.env.VITE_API_URL;
 
 const apiBase = envApiUrl && envApiUrl.trim() !== '' ? envApiUrl.trim() : VPS_API_URL;
